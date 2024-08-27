@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #F3F5FC;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.lado_izquierdo {
+    justify-content: space-between;
+}
+
+.lado_izquierdo_input {
+    width: 577px;
+    border: none;
+    background-color: #F3F5FC;
+    font-size: 32px;
+    color: #0A3871;
+}
+
+.lado_izquierdo_botones {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 680px;
+}
+
+.lado_izquierdo_botones_encriptar, .lado_izquierdo_botones_desencriptar {
+    padding: 24px 100px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.lado_izquierdo_botones_encriptar {
+    background-color: #0A3871;
+    color: #D8DFE8;
+}
+
+.lado_izquierdo_botones_desencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.lado_izquierdo_mayusculas {
+    font-size: 12px;
+    color: #495057;
+}
+
+.mensaje {
+    background-color: white;
+    width: 400;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
